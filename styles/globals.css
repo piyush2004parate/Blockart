@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-body text-white bg-background;
+  }
+
+  input,
+  select,
+  textarea {
+    @apply px-5 py-2 bg-[#252525] rounded-md w-full box-border outline-none focus:outline-2 focus:outline-offset-0 focus:outline-neutral-400;
+  }
+}
